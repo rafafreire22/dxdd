@@ -1,0 +1,135 @@
+.angry-grid {
+    display: grid; 
+    width: 800px;
+
+    grid-template-rows: 1fr;
+    grid-template-columns: perofr bobfr patfr sirifr garfr lulafr sandyfr planfr;
+    
+    grid-template-areas: 
+     'label0 label1 label2 label3 label4 label5 label6 label7';
+    
+    gap: 0px;
+    height: 100%;
+ 
+    
+ }
+ #container{
+   display : flex;
+   align-items: center;
+   justify-content: center;
+
+
+ }
+   
+ #item-0 {
+ 
+    background-color: #c0d3f2; 
+    grid-area: label0;
+    
+ }
+ #item-1 {
+ 
+    background-color: #f1f297; 
+    grid-area: label1;
+    
+ }
+ #item-2 {
+ 
+    background-color: #eec9e6; 
+    grid-area: label2;
+    
+ }
+ #item-3 {
+ 
+    background-color: #f78897; 
+    grid-area: label3;
+    
+ }
+ #item-4 {
+ 
+    background-color: #f2c5e1; 
+    grid-area: label4;
+    
+ }
+ #item-5 {
+ 
+    background-color: #b8c4d6; 
+    grid-area: label5;
+    
+ }
+ #item-6 {
+ 
+    background-color: #e1baf3; 
+    grid-area: label6;
+    
+ }
+#item-7 {
+ 
+    background-color: #6ec48c; 
+    grid-area: label7;
+    
+}
+
+body{background-image: url(https://34452.cdn.simplo7.net/static/34452/sku/168062079294223.jpg) ;
+}
+
+
+#Image{
+   max-width: 100%;
+   max-height: 600px;
+   width: 270px;
+   height: 100px;
+   border: 1px solid white;
+}
+
+#divBob , #div1{
+    width: 265px;
+    height: 200px;
+    margin: 50px;
+    padding: 15px;
+    border: 1px solid black;
+    border: rgb(211, 211, 211) solid 5px;
+    
+}
+
+#divBob{
+   background-color: #fff;
+}
+
+.const{
+   display: flex;
+   align-items: center;
+   justify-content:center
+
+}
+
+.cabecalho {
+	background-color: rgb(125, 208, 238)
+	;
+	color: white;
+	border: 8px solid #ffb6c1;
+	margin: 20px;
+	padding: 20px;
+   font-family: 'Trebuchet MS', Verdana, sans-serif;
+}
+
+.h1 {
+	background-color: #ffb6c1;
+	;
+	color: white;
+	border: 5px solid rgb(125, 208, 238);
+	margin: 20px;
+	padding: 20px;
+   font-family: 'Trebuchet MS', Verdana, sans-serif;
+}
+
+img:hover{
+   zoom:1.5;
+}
+
+button{
+   color: #000000;
+   background-color: #e3acac;
+ border-radius: 4px;
+ font-size: 16px;
+}
